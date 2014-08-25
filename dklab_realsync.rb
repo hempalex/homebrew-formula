@@ -8,6 +8,7 @@ class DklabRealsync < Formula
 
   def install
     inreplace "realsync", "bin/darwin/notify", "notify"
+    inreplace "realsync", "if (!-d $DIR_PRIVATE || !-f $FILE_CONFIG)", "if (!-f $FILE_CONFIG)"
     bin.install "realsync","bin/darwin/notify"
   end
 
