@@ -3,9 +3,9 @@ require "formula"
 class Composer < Formula
   homepage 'http://getcomposer.org'
   head 'https://getcomposer.org/composer.phar'
-  url 'http://getcomposer.org/download/1.0.0-alpha9/composer.phar'
-  sha1 'c0917158e84c867ce69753fcbc04eb7c45bb58bb'
-  version '1.0.0-alpha9'
+  url 'http://getcomposer.org/download/1.0.0/composer.phar'
+  sha1 '5a11325ec75e0a71b58945d721167c92c1cc648b'
+  version '1.0.0'
 
   def install
     libexec.install "composer.phar"
