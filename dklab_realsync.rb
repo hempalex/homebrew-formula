@@ -4,7 +4,7 @@ class DklabRealsync < Formula
   url "https://github.com/DmitryKoterov/dklab_realsync/archive/master.tar.gz"
   homepage "https://github.com/DmitryKoterov/dklab_realsync"
   version "1.0"
-  sha256 "7016b15dbffb3073d027f63bc41eb12d418fc56bab1ffac5524f810140c88f6f"
+  sha256 "a5912dc5aeaa45d7256c1c4648d6e5e7e937bf64a041fd53dbd48b2c64b012f7"
 
   def install
     inreplace "realsync", "bin/darwin/notify", "notify"
