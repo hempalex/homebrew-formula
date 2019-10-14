@@ -11,7 +11,8 @@ class DklabRealsync < Formula
     inreplace "realsync", "if (!-d $DIR_PRIVATE || !-f $FILE_CONFIG)", "if (!-f $FILE_CONFIG)"
     inreplace "realsync", "\"-o\", \"CompressionLevel=9\",", ""
     inreplace "realsync", "-rltzxv", "-rltzxvp"
-    bin.install "realsync","bin/darwin/notify"
+    system "clang -framework CoreFoundation -framework CoreServices -o notify src/darwin/notify.c"
+    bin.install "realsync","notify"
   end
 
 end
