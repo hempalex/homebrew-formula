@@ -1,9 +1,9 @@
 class Far2l < Formula
   desc "Linux port of FAR v2"
   homepage "https://github.com/elfmz/far2l"
-  url "https://github.com/elfmz/far2l/archive/alpha-23jun19.tar.gz"
-  version "0.2-alpha.2019-07-23"
-  sha256 "0e9a3a25f0954a201d210baab12c14a496df8e49c6d3188d921ba4ff50b72800"
+  url "https://github.com/elfmz/far2l/archive/alpha-14jun20.tar.gz"
+  version "0.2-alpha.2020-06-14"
+  sha256 "5618dfa3c55c6b6e1566eb663a035fc0fa526a795b33d7243b69bb593ea35a7f"
   head "https://github.com/elfmz/far2l.git"
 
   depends_on "cmake" => :build
@@ -12,6 +12,7 @@ class Far2l < Formula
   depends_on "neon"
   depends_on "pkg-config"
   depends_on "wget"
+  depends_on "wxmac"
 
   def install
     system "cmake", ".", *std_cmake_args, "-DUSEWX:BOOL=OFF"
