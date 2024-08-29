@@ -8,7 +8,7 @@ cask "spoofdpi-app" do
 
   livecheck do
     url :url
-    strategy :github_latest
+    strategy :github_releases
   end
 
   app "SpoofDPI App.app"
