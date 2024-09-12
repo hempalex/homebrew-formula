@@ -1,6 +1,6 @@
 cask "spoofdpi-app" do
-  version "1.2.1"
-  sha256 "11d6b93420093ed7476ff2d93502da8eab4b852e741a0e0ecda013fb537122cc"
+  version "1.3"
+  sha256 "c112ccee346a7876986cd5d2d08107691e81d44216acba7a0b78d8e82e79ddba"
   url "https://github.com/SpoofDPIApp/SpoofDPI-App/releases/download/#{version}/SpoofDPI.App.zip"
   name "SpoofDPI-App"
   desc "spoofdpi frontend for macos"
