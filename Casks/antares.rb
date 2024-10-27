@@ -1,6 +1,6 @@
 cask "antares" do
-  version "0.7.28"
-  sha256 "9e9654aa18203b2fc51892b766811e7ed12c4033ded1289e733d0ba62a0888d1"
+  version "0.7.29"
+  sha256 "8567b137b0328e86bd00c0e43334c63f4902923923364725c99e8d222df319bd"
   url "https://github.com/antares-sql/antares/releases/download/v#{version}/Antares-#{version}-mac_x64.dmg"
   name "Antares"
   desc "Antares SQL Client"
