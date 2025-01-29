@@ -2,11 +2,11 @@ cask "peazip" do
 
   name "PeaZip"
   homepage "https://peazip.github.io/"
-  version "10.0.0"
+  version "10.2.0"
  
   arch arm: "aarch64", intel: "x86-64"
-  sha256 arm:   "f60f0ea9ea1cdc7b66454679c7ee2c0f3afb87dad00ac18945d3b879b1ef43b9",
-         intel: "8b17b71dbfedfe329af4ebb6cd9f39d571f2f3cf211226502e5af22ce233f1e0"
+  sha256 arm:   "79a1947f88cf98c958f508247fa38ebf2e0b08a4a42e653f4aad465f63c5c82d",
+         intel: "66835755439a952631f6b3271d31a264402e0d77245f9a3fd21a118be2d8d3ac"
 
   url "https://github.com/peazip/PeaZip/releases/download/#{version}/peazip-#{version}.DARWIN.#{arch}.dmg"
 
